@@ -26,16 +26,17 @@ class Userservice {
   //Add user
   static async signUp(req) {
     try {
-      const { name, contact_no, email, gender, age, address } = req.body;
-      await Users.create({
-        name: name,
-        contact_no: contact_no,
-        email: email,
-        age: age,
-        gender: gender,
-        address: address,
-      });
-      return `Welcome ${name}.`;
+      // const { name, contact_no, email, gender, age, address } = req.body;
+      // await Users.create({
+      //   name: name,
+      //   contact_no: contact_no,
+      //   email: email,
+      //   age: age,
+      //   gender: gender,
+      //   address: address,
+      // });
+      // return `Welcome ${name}.`;
+      return "Anurag"
     } catch (error) {
       console.log(error);
     }
