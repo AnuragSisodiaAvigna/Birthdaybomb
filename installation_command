@@ -1,0 +1,8 @@
+Follow this steps for installation project
+
+1. git clone https://github.com/
+2. create database "allcanfarm" in mysql.
+3. run command: npm install
+4. run command: npm run migrate
+5. run command: npm run seed
+6. run command: node server.js
